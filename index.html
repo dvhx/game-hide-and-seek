@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Hide and seek</title>
+    <link rel="stylesheet" href="css/splash.css" type="text/css" />
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="shortcut icon" href="image/icon.png" type="image/png" />
+  </head>
+  <body>
+    <audio src="sound/forest.ogg" autoplay loop></audio>
+
+    <canvas class="full" id="background_canvas"></canvas>
+    <canvas class="full" id="flashlight_canvas"></canvas>
+    <canvas class="full" id="character_canvas"></canvas>
+
+    <script type="text/javascript" src="js/polyfill_hypot.js"></script>
+    <script type="text/javascript" src="map/tileset/all.js"></script>
+
+    <script type="text/javascript" src="map/forest.js"></script>
+
+    <script type="text/javascript" src="js/storage.js"></script>
+    <script type="text/javascript">SC.storage.prefix = 'HS.';</script>
+    <script type="text/javascript" src="js/background.js"></script>
+    <script type="text/javascript" src="js/canvas.js"></script>
+    <script type="text/javascript" src="js/character.js"></script>
+    <script type="text/javascript" src="js/is_touch_device.js"></script>
+    <script type="text/javascript" src="js/keyboard.js"></script>
+    <script type="text/javascript" src="js/touchpad.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/bubble.js"></script>
+    <script type="text/javascript" src="js/lip.js"></script>
+    <script type="text/javascript" src="js/effect.js"></script>
+    <script type="text/javascript" src="js/splash.js"></script>
+    <script type="text/javascript" src="js/flashlight.js"></script>
+
+    <script type="text/javascript" src="js/global.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+  </body>
+</html>
