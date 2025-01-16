@@ -95,7 +95,7 @@ SC.startTimer = function () {
                 window.setTimeout(function () {
                     SC.bubblesCasual('hs_ghost', ['Next time I will hide better!'], function () {
                         //SC.ghost.base('invisible');
-                        SC.splash('Mission complete!', ['Play again', 'Back to chat'], 'lime', '', function (aButton) {
+                        SC.splash('Mission complete!', SC.quitLabel ? ['Play again', SC.quitLabel] : ['Play again'], 'lime', '', function (aButton) {
                             if (aButton === 'Play again' || aButton === undefined) {
                                 document.location.reload();
                             } else {
